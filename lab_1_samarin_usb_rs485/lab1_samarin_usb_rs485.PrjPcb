@@ -31,7 +31,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-Template=C:\Users\Антон\Desktop\Программирование микроконтроллеров для управления роботами 7 семестр 2020, 3331506.70401\Library\Preferences\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
+Template=D:\Altium\library\altiumpreferences\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -56,7 +56,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=lab_1_larionov_usb_rs232.PcbDoc
+DocumentPath=..\..\githyb\Altium_BEng\library\Database_Students.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=lab_1_larionov_usb_rs232.SchDoc
+DocumentPath=lab1_samarin_usb_rs485.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,63 +87,84 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=AJYPUSYH
+
+[Document4]
+DocumentPath=lab1_samarin_usb_rs485.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 DocumentUniqueId=MGHWWDNT
 
 [Parameter1]
-Name=approver
-Value=Капустин
+Name=
+Value=
 
 [Parameter2]
-Name=check
-Value=Капустин
+Name=title_line_2
+Value=USB-RS485
 
 [Parameter3]
-Name=designation
-Value=СПБПУ.3331506.016
+Name=title_line_1
+Value=Преобразователь 
 
 [Parameter4]
-Name=developer
-Value=Ларионов
+Name=title
+Value=Преобразователь USB-RS485
 
 [Parameter5]
-Name=document_code
-Value=Э3
+Name=sheets_total
+Value=
 
 [Parameter6]
-Name=document_type
-Value=Схема электрическая принципиальная
+Name=project
+Value=Лабораторная работа №1
 
 [Parameter7]
-Name=letter
-Value=
+Name=pcb_dec_number
+Value=СПБПУ.331506.21
 
 [Parameter8]
 Name=ncontr
 Value=
 
 [Parameter9]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.016
+Name=letter
+Value=
 
 [Parameter10]
-Name=project
-Value=Преобразователь USB-RS232
+Name=document_type
+Value=Схема электрическая принципиальная
 
 [Parameter11]
-Name=sheets_total
-Value=1
+Name=document_code
+Value=Э3
 
 [Parameter12]
-Name=title
-Value=Преобразователь USB-RS232
+Name=developer
+Value=Самарин
 
 [Parameter13]
-Name=title_line_1
-Value=Преобразователь
+Name=designation
+Value=СПБПУ.331506.21
 
 [Parameter14]
-Name=title_line_2
-Value=USB-RS232
+Name=check
+Value=Капустин
+
+[Parameter15]
+Name=approver
+Value=Капустин
 
 [Configuration1]
 Name=Sources
@@ -303,7 +324,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Canon MG2500 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
