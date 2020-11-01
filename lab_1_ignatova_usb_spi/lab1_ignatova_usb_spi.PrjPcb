@@ -31,7 +31,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-Template=C:\Users\Ilya\Documents\Library\Altium preferences\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
+Template=D:\projects\library\altium_preferences\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -39,7 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=lab_1_lyaptsev_usb_spi.PcbDoc
+DocumentPath=OUTPUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -53,10 +53,61 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AJYPUSYH
+DocumentUniqueId=
 
 [Document2]
-DocumentPath=lab_1_lyaptsev_usb_spi.SchDoc
+DocumentPath=..\..\ Altium Designer\library\library\Database_Students25.DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
+DocumentPath=..\..\ Altium Designer\library\library\pcb\ssop_16.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IXMEVQID
+
+[Document4]
+DocumentPath=lab1_ignatova_usb_spi.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=lab1_ignatova_usb_spi.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -73,60 +124,60 @@ GenerateClassCluster=0
 DocumentUniqueId=MGHWWDNT
 
 [Parameter1]
-Name=approver
-Value=Утвердил
+Name=title_line_2
+Value=USB-SPI
 
 [Parameter2]
-Name=check
-Value=Проверяющий
+Name=title_line_1
+Value=Преобразователь
 
 [Parameter3]
-Name=designation
-Value=Введите номер сборки
+Name=title
+Value=Преобразователь USB-SPI
 
 [Parameter4]
-Name=developer
-Value=Разработчик
-
-[Parameter5]
-Name=document_code
-Value=Э3
-
-[Parameter6]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter7]
-Name=letter
+Name=sheets_total
 Value=
 
-[Parameter8]
+[Parameter5]
+Name=project
+Value=Лабораторная работа №1
+
+[Parameter6]
+Name=pcb_dec_number
+Value=СПБПУ.3331506.0720
+
+[Parameter7]
 Name=ncontr
 Value=
 
+[Parameter8]
+Name=letter
+Value=
+
 [Parameter9]
-Name=pcb_dec_number
-Value=Введите номер платы
+Name=document_type
+Value=Схема электрическая принципиальная
 
 [Parameter10]
-Name=project
-Value=Введите название проекта
+Name=document_code
+Value=Э3
 
 [Parameter11]
-Name=sheets_total
-Value=M
+Name=developer
+Value=Игнатова
 
 [Parameter12]
-Name=title
-Value=Введите полное название схемы
+Name=designation
+Value=СПБПУ.3331506.07
 
 [Parameter13]
-Name=title_line_1
-Value=Название
+Name=check
+Value=Капустин
 
 [Parameter14]
-Name=title_line_2
-Value=схемы
+Name=approver
+Value=Капустин
 
 [Configuration1]
 Name=Sources
@@ -286,7 +337,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1139,27 +1190,13 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=1
 SortLocation=0
-MatchParameter1=ID
+MatchParameter1=Comment
 MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=
-DocumentName0=Lab1_Lyaptsev_main.SchDoc
-IsEnabled0=1
-SelectionScope0=All
-Order0=1
-IndexEnabled0=0
-IndexStartValue0=1
-Suffix0=
-UniqueIDPath1=
-DocumentName1=template_n_revision_sheet.SchDoc
-IsEnabled1=1
-SelectionScope1=All
-Order1=2
-IndexEnabled1=0
-IndexStartValue1=1
-Suffix1=
 
 [PrjClassGen]
 CompClassManualEnabled=1
