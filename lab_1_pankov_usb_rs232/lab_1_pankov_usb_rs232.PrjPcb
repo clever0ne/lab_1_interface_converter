@@ -111,60 +111,60 @@ DocumentPath=Project Outputs for lab_1_pankov_usb_rs232\Design Rule Check - lab_
 DItemRevisionGUID=
 
 [Parameter1]
-Name=approver
-Value=
+Name=title_line_2
+Value=USB-RS232
 
 [Parameter2]
-Name=check
-Value=Капустин
-
-[Parameter3]
-Name=designation
-Value=СПБПУ.3331506.019
-
-[Parameter4]
-Name=developer
-Value=Паньков
-
-[Parameter5]
-Name=document_code
-Value=Э3
-
-[Parameter6]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter7]
-Name=letter
-Value=
-
-[Parameter8]
-Name=ncontr
-Value=
-
-[Parameter9]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.019
-
-[Parameter10]
-Name=project
-Value=Преобразователь USB-RS232
-
-[Parameter11]
-Name=sheets_total
-Value=2
-
-[Parameter12]
-Name=title
-Value=Лабораторная работа №1 — Преобразователь интерфейсов
-
-[Parameter13]
 Name=title_line_1
 Value=Преобразователь
 
+[Parameter3]
+Name=title
+Value=Лабораторная работа №1 — Преобразователь интерфейсов
+
+[Parameter4]
+Name=sheets_total
+Value=2
+
+[Parameter5]
+Name=project
+Value=Преобразователь USB-RS232
+
+[Parameter6]
+Name=pcb_dec_number
+Value=СПБПУ.3331506.019
+
+[Parameter7]
+Name=ncontr
+Value=
+
+[Parameter8]
+Name=letter
+Value=
+
+[Parameter9]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter10]
+Name=document_code
+Value=Э3
+
+[Parameter11]
+Name=developer
+Value=Паньков
+
+[Parameter12]
+Name=designation
+Value=СПБПУ.3331506.019
+
+[Parameter13]
+Name=check
+Value=Капустин
+
 [Parameter14]
-Name=title_line_2
-Value=USB-RS232
+Name=approver
+Value=
 
 [Configuration1]
 Name=Sources
