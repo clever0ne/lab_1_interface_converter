@@ -31,7 +31,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-Template=C:\Users\glebo\OneDrive\??????? ????\????? ? ????????\????????????\library\Altium preferences\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
+Template=D:\SPbPU\Схемотехника\Library\Altium preferences\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -39,13 +39,30 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=template_n_revision_sheet.SchDoc
+DocumentPath=..\template_1_sheet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MGHWWDNT
+
+[Document2]
+DocumentPath=..\template_n_revision_sheet.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=0
@@ -55,42 +72,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GPGUPSMV
 
-[Document2]
-DocumentPath=OUTPUT.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [Document3]
-DocumentPath=..\..\..\library\Database_Students.DbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
-DocumentPath=1lab_vodoreziv_rs485.PcbDoc
+DocumentPath=..\1,5mm_18um_4layers_std.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,25 +89,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
 
-[Document5]
-DocumentPath=1lab_vodoreziv_rs485.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RNXXTDHI
-
-[Document6]
-DocumentPath=button.SchLib
+[Document4]
+DocumentPath=..\OUTPUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -138,31 +104,82 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DZXUSOBO
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=..\..\..\..\Library\Database_Students.DbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=..\PcbLib1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DGQGJHBL
+
+[Document7]
+DocumentPath=..\Schlib1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IWSXHDYA
 
 [Parameter1]
 Name=approver
-Value=????????
+Value=Капустин
 
 [Parameter2]
 Name=check
-Value=????????
+Value=Капустин
 
 [Parameter3]
 Name=designation
-Value=?????.3331506.002
+Value=СПбПУ.3331506.012
 
 [Parameter4]
 Name=developer
-Value=?????????
+Value=Кондрашова
 
 [Parameter5]
 Name=document_code
-Value=?3
+Value=Э3
 
 [Parameter6]
 Name=document_type
-Value=????? ????????????? ??????????????
+Value=Схема электрическая принципиальная
 
 [Parameter7]
 Name=letter
@@ -174,11 +191,11 @@ Value=
 
 [Parameter9]
 Name=pcb_dec_number
-Value=?????.3331506.002
+Value=СПбПУ.3331506.012
 
 [Parameter10]
 Name=project
-Value=
+Value=Лабораторная работа 1
 
 [Parameter11]
 Name=sheets_total
@@ -186,11 +203,11 @@ Value=1
 
 [Parameter12]
 Name=title
-Value=??????????????? USB-RS485
+Value=Преобразователь интерфейсов
 
 [Parameter13]
 Name=title_line_1
-Value=???????????????
+Value=Преобразователь
 
 [Parameter14]
 Name=title_line_2
@@ -354,7 +371,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
