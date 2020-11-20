@@ -104,63 +104,131 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=AJYPUSYH
+
+[Document5]
+DocumentPath=..\FT201XQ_I2C\Schlib1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZKMBMCRW
+
+[Document6]
+DocumentPath=..\FT201XQ_I2C\Schlib2.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZTQKOGYK
+
+[Document7]
+DocumentPath=..\FT201XQ_I2C\PcbLib1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=..\FT201XQ_I2C\PcbLib2.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=title_line_2
-Value=USB-I2C
+Name=approver
+Value=Капустин
 
 [Parameter2]
-Name=title_line_1
-Value=Преобразователь
-
-[Parameter3]
-Name=title
-Value=Преобразователь интерфейсов USB-I2C
-
-[Parameter4]
-Name=sheets_total
-Value=M
-
-[Parameter5]
-Name=project
-Value=Введите название проекта
-
-[Parameter6]
-Name=pcb_dec_number
-Value=СПБПУ.333150670401.29
-
-[Parameter7]
-Name=ncontr
-Value=
-
-[Parameter8]
-Name=letter
-Value=
-
-[Parameter9]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter10]
-Name=document_code
-Value=ЭЗ
-
-[Parameter11]
-Name=developer
-Value=Якименко
-
-[Parameter12]
-Name=designation
-Value=СПБПУ.333150670401.29
-
-[Parameter13]
 Name=check
 Value=Капустин
 
+[Parameter3]
+Name=designation
+Value=СПБПУ.333150670401.29
+
+[Parameter4]
+Name=developer
+Value=Якименко
+
+[Parameter5]
+Name=document_code
+Value=ЭЗ
+
+[Parameter6]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter7]
+Name=letter
+Value=
+
+[Parameter8]
+Name=ncontr
+Value=
+
+[Parameter9]
+Name=pcb_dec_number
+Value=СПБПУ.333150670401.29
+
+[Parameter10]
+Name=project
+Value=Введите название проекта
+
+[Parameter11]
+Name=sheets_total
+Value=M
+
+[Parameter12]
+Name=title
+Value=Преобразователь интерфейсов USB-I2C
+
+[Parameter13]
+Name=title_line_1
+Value=Преобразователь
+
 [Parameter14]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=USB-I2C
 
 [Configuration1]
 Name=Sources
@@ -828,36 +896,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1224,6 +1262,102 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Database_Students.DbLib/Диодные сборки$
+ComponentDesignItemID0=vd0005
+ComponentSymbolReference0=USB6B1
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Database_Students.DbLib/Конденсаторы$
+ComponentDesignItemID1=c0002
+ComponentSymbolReference1=C-NONPOLAR
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Database_Students.DbLib/Конденсаторы$
+ComponentDesignItemID2=c0004
+ComponentSymbolReference2=C-NONPOLAR
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Database_Students.DbLib/Конденсаторы$
+ComponentDesignItemID3=c0005
+ComponentSymbolReference3=C-NONPOLAR
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Database_Students.DbLib/Конденсаторы$
+ComponentDesignItemID4=c0009
+ComponentSymbolReference4=C-NONPOLAR
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Database_Students.DbLib/Переключатели$
+ComponentDesignItemID5=sw0001
+ComponentSymbolReference5=SWITCH-02
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Database_Students.DbLib/Разъемы$
+ComponentDesignItemID6=x0003
+ComponentSymbolReference6=HEADER-6-PLG
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Database_Students.DbLib/Разъемы$
+ComponentDesignItemID7=x0005
+ComponentSymbolReference7=HEADER-4-TP1-SCT
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Database_Students.DbLib/Резисторы$
+ComponentDesignItemID8=r0005
+ComponentSymbolReference8=R-COMMON
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Database_Students.DbLib/Резисторы$
+ComponentDesignItemID9=r0008
+ComponentSymbolReference9=R-COMMON
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Database_Students.DbLib/Резисторы$
+ComponentDesignItemID10=r0012
+ComponentSymbolReference10=R-COMMON
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Database_Students.DbLib/Светодиоды$
+ComponentDesignItemID11=hl0001
+ComponentSymbolReference11=HL-COMMON
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Database_Students.DbLib/Ферритовая бусина$
+ComponentDesignItemID12=l0002
+ComponentSymbolReference12=FERRITE-BEAD
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=electromechanics.IntLib
+ComponentDesignItemID13=Button_3x4x2_SMT
+ComponentSymbolReference13=Button_3x4x2_SMT
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Schlib1.SchLib
+ComponentDesignItemID14=FT201XQ
+ComponentSymbolReference14=FT201XQ
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Schlib2.SchLib
+ComponentDesignItemID15=R27
+ComponentSymbolReference15=R27
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1237,6 +1371,127 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=CommentText
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Contact_1
+ParameterUpdate3=1
+ParameterName4=Contact_2
+ParameterUpdate4=1
+ParameterName5=Contact_3
+ParameterUpdate5=1
+ParameterName6=Contact_4
+ParameterUpdate6=1
+ParameterName7=Contact_5
+ParameterUpdate7=1
+ParameterName8=Contact_6
+ParameterUpdate8=1
+ParameterName9=Description
+ParameterUpdate9=1
+ParameterName10=HelpURL
+ParameterUpdate10=1
+ParameterName11=ID
+ParameterUpdate11=1
+ParameterName12=Library Reference
+ParameterUpdate12=1
+ParameterName13=Manufacturer
+ParameterUpdate13=1
+ParameterName14=Package
+ParameterUpdate14=1
+ParameterName15=PartNumber
+ParameterUpdate15=1
+ParameterName16=ValueManufacturerPartNumber
+ParameterUpdate16=1
+ParameterName17=Количество контактов
+ParameterUpdate17=1
+ParameterName18=Корпус
+ParameterUpdate18=1
+ParameterName19=Наименование
+ParameterUpdate19=1
+ParameterName20=Номинал
+ParameterUpdate20=1
+ParameterName21=Номинальная длина волны
+ParameterUpdate21=1
+ParameterName22=Номинальная сила света
+ParameterUpdate22=1
+ParameterName23=Номинальное напряжение
+ParameterUpdate23=1
+ParameterName24=Номинальное падение напряжения
+ParameterUpdate24=1
+ParameterName25=Номинальный прямой ток
+ParameterUpdate25=1
+ParameterName26=Номинальный ток
+ParameterUpdate26=1
+ParameterName27=Описание
+ParameterUpdate27=1
+ParameterName28=Отклонение
+ParameterUpdate28=1
+ParameterName29=Отклонение, 100 Мгц
+ParameterUpdate29=1
+ParameterName30=Производитель
+ParameterUpdate30=1
+ParameterName31=Промывка
+ParameterUpdate31=1
+ParameterName32=Рабочие температуры
+ParameterUpdate32=1
+ParameterName33=Рассеиваемая мощность
+ParameterUpdate33=1
+ParameterName34=Сопротивление контакта
+ParameterUpdate34=1
+ParameterName35=Сопротивление при постоянном токе
+ParameterUpdate35=1
+ParameterName36=Сопротивление, 100 МГц
+ParameterUpdate36=1
+ParameterName37=Ток нагрузки
+ParameterUpdate37=1
+ParameterName38=Фамилия
+ParameterUpdate38=1
+ParameterName39=Цвет
+ParameterUpdate39=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=BLM-2-0603
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=BUT: 3x4x2 SMT
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=C0201
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=C0402
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=C0603
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=DIP-SWITCH-02-706X930X545
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=DS1021-2X3SF11
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=DS1099-WN0
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=FT201XQ
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=HL0603
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=R0603
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=R27
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SO-8
+ModelUpdate12=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

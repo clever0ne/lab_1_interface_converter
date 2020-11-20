@@ -72,6 +72,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for lab1_sokolov_usb_i2c\Design Rule Check - lab1_sokolov_usb_i2c.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=approver
 Value=Капустин
@@ -110,7 +114,7 @@ Value=СПБПУ.3331506.022
 
 [Parameter10]
 Name=project
-Value=Введите название проекта
+Value=Лабораторная работа №1
 
 [Parameter11]
 Name=sheets_total

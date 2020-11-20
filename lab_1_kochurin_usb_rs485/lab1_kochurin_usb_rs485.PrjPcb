@@ -124,60 +124,60 @@ GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
 
 [Parameter1]
-Name=title_line_2
-Value=USB-RS485
+Name=approver
+Value=Капустин
 
 [Parameter2]
-Name=title_line_1
-Value=Преобразователь
-
-[Parameter3]
-Name=title
-Value=Преобразователь интерфейса USB-RS485
-
-[Parameter4]
-Name=sheets_total
-Value=1
-
-[Parameter5]
-Name=project
-Value=Лабораторная работа 1
-
-[Parameter6]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.013
-
-[Parameter7]
-Name=ncontr
-Value=
-
-[Parameter8]
-Name=letter
-Value=
-
-[Parameter9]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter10]
-Name=document_code
-Value=Э3
-
-[Parameter11]
-Name=developer
-Value=Кочурин
-
-[Parameter12]
-Name=designation
-Value=СПБПУ.3331506.013
-
-[Parameter13]
 Name=check
 Value=Капустин
 
+[Parameter3]
+Name=designation
+Value=СПБПУ.3331506.013
+
+[Parameter4]
+Name=developer
+Value=Кочурин
+
+[Parameter5]
+Name=document_code
+Value=Э3
+
+[Parameter6]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter7]
+Name=letter
+Value=
+
+[Parameter8]
+Name=ncontr
+Value=
+
+[Parameter9]
+Name=pcb_dec_number
+Value=СПБПУ.3331506.013
+
+[Parameter10]
+Name=project
+Value=Лабораторная работа 1
+
+[Parameter11]
+Name=sheets_total
+Value=1
+
+[Parameter12]
+Name=title
+Value=Преобразователь интерфейса USB-RS485
+
+[Parameter13]
+Name=title_line_1
+Value=Преобразователь
+
 [Parameter14]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=USB-RS485
 
 [Configuration1]
 Name=Sources
