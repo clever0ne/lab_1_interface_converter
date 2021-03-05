@@ -39,40 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=OUTPUT.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
-DocumentPath=..\..\githyb\Altium_BEng\library\Database_Students.DbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=lab1_samarin_usb_rs485.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +55,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
 
-[Document4]
+[Document2]
 DocumentPath=lab1_samarin_usb_rs485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,64 +73,60 @@ GenerateClassCluster=0
 DocumentUniqueId=MGHWWDNT
 
 [Parameter1]
-Name=
-Value=
+Name=approver
+Value=Капустин
 
 [Parameter2]
-Name=title_line_2
-Value=USB-RS485
+Name=check
+Value=Капустин
 
 [Parameter3]
-Name=title_line_1
-Value=Преобразователь 
+Name=designation
+Value=СПБПУ.331506.21
 
 [Parameter4]
-Name=title
-Value=Преобразователь USB-RS485
+Name=developer
+Value=Самарин
 
 [Parameter5]
-Name=sheets_total
-Value=
+Name=document_code
+Value=Э3
 
 [Parameter6]
-Name=project
-Value=Лабораторная работа №1
+Name=document_type
+Value=Схема электрическая принципиальная
 
 [Parameter7]
-Name=pcb_dec_number
-Value=СПБПУ.331506.21
+Name=letter
+Value=
 
 [Parameter8]
 Name=ncontr
 Value=
 
 [Parameter9]
-Name=letter
-Value=
-
-[Parameter10]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter11]
-Name=document_code
-Value=Э3
-
-[Parameter12]
-Name=developer
-Value=Самарин
-
-[Parameter13]
-Name=designation
+Name=pcb_dec_number
 Value=СПБПУ.331506.21
 
-[Parameter14]
-Name=check
-Value=Капустин
+[Parameter10]
+Name=project
+Value=Лабораторная работа №1
 
-[Parameter15]
-Name=approver
-Value=Капустин
+[Parameter11]
+Name=sheets_total
+Value=
+
+[Parameter12]
+Name=title
+Value=Преобразователь USB-RS485
+
+[Parameter13]
+Name=title_line_1
+Value=Преобразователь
+
+[Parameter14]
+Name=title_line_2
+Value=USB-RS485
 
 [Configuration1]
 Name=Sources
@@ -324,7 +286,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon MG2500 series Printer
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

@@ -39,57 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=OUTPUT.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
-DocumentPath=..\..\ Altium Designer\library\library\Database_Students25.DbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
-DocumentPath=..\..\ Altium Designer\library\library\pcb\ssop_16.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IXMEVQID
-
-[Document4]
 DocumentPath=lab1_ignatova_usb_spi.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,16 +53,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AJYPUSYH
 
-[Document5]
+[Document2]
 DocumentPath=lab1_ignatova_usb_spi.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -124,60 +73,60 @@ GenerateClassCluster=0
 DocumentUniqueId=MGHWWDNT
 
 [Parameter1]
-Name=title_line_2
-Value=USB-SPI
+Name=approver
+Value=Капустин
 
 [Parameter2]
-Name=title_line_1
-Value=Преобразователь
-
-[Parameter3]
-Name=title
-Value=Преобразователь USB-SPI
-
-[Parameter4]
-Name=sheets_total
-Value=
-
-[Parameter5]
-Name=project
-Value=Лабораторная работа №1
-
-[Parameter6]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.0720
-
-[Parameter7]
-Name=ncontr
-Value=
-
-[Parameter8]
-Name=letter
-Value=
-
-[Parameter9]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter10]
-Name=document_code
-Value=Э3
-
-[Parameter11]
-Name=developer
-Value=Игнатова
-
-[Parameter12]
-Name=designation
-Value=СПБПУ.3331506.07
-
-[Parameter13]
 Name=check
 Value=Капустин
 
+[Parameter3]
+Name=designation
+Value=СПБПУ.3331506.07
+
+[Parameter4]
+Name=developer
+Value=Игнатова
+
+[Parameter5]
+Name=document_code
+Value=Э3
+
+[Parameter6]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter7]
+Name=letter
+Value=
+
+[Parameter8]
+Name=ncontr
+Value=
+
+[Parameter9]
+Name=pcb_dec_number
+Value=СПБПУ.3331506.0720
+
+[Parameter10]
+Name=project
+Value=Лабораторная работа №1
+
+[Parameter11]
+Name=sheets_total
+Value=
+
+[Parameter12]
+Name=title
+Value=Преобразователь USB-SPI
+
+[Parameter13]
+Name=title_line_1
+Value=Преобразователь
+
 [Parameter14]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=USB-SPI
 
 [Configuration1]
 Name=Sources
@@ -337,7 +286,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

@@ -31,7 +31,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-Template=C:\Users\79191\Desktop\University\7_sem\Altium\Lib\templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
+Template=E:\Altium\AD19\Templates\1,5mm_18um_4layers_std\1,5mm_18um_4layers_std.PrjPCB
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -39,7 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=lab1_arhipov_usb_i2c.PcbDoc
+DocumentPath=lab_1_somov_usb_i2c.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -56,13 +56,13 @@ GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
 
 [Document2]
-DocumentPath=lab1_arhipov_usb_i2c.SchDoc
+DocumentPath=lab_1_somov_usb_i2c.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -70,63 +70,63 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=MGHWWDNT
+DocumentUniqueId=VHPYUJOQ
 
 [Parameter1]
-Name=title_line_2
-Value=USB-I2C
+Name=approver
+Value=Утвердил
 
 [Parameter2]
-Name=title_line_1
-Value=Преобразователь
+Name=check
+Value=Проверяющий
 
 [Parameter3]
-Name=title
-Value=Преобразователь USB-I2C
+Name=designation
+Value=Введите номер сборки
 
 [Parameter4]
-Name=sheets_total
-Value=
+Name=developer
+Value=Разработчик
 
 [Parameter5]
-Name=project
-Value=Лабораторная работа №1
-
-[Parameter6]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.01
-
-[Parameter7]
-Name=ncontr
-Value=
-
-[Parameter8]
-Name=letter
-Value=
-
-[Parameter9]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter10]
 Name=document_code
 Value=Э3
 
+[Parameter6]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter7]
+Name=letter
+Value=
+
+[Parameter8]
+Name=ncontr
+Value=
+
+[Parameter9]
+Name=pcb_dec_number
+Value=Введите номер платы
+
+[Parameter10]
+Name=project
+Value=Введите название проекта
+
 [Parameter11]
-Name=developer
-Value=Архипов
+Name=sheets_total
+Value=M
 
 [Parameter12]
-Name=designation
-Value=СПБПУ.3331506.001
+Name=title
+Value=Введите полное название схемы
 
 [Parameter13]
-Name=check
-Value=Капустин
+Name=title_line_1
+Value=Название
 
 [Parameter14]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=схемы
 
 [Configuration1]
 Name=Sources
